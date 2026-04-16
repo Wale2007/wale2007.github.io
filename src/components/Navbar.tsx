@@ -138,7 +138,8 @@ const Navbar = () => {
           <li><a className={activeSection === 'experience' ? 'active' : ''} href="#experience">Experience</a></li>
           <li><a className={activeSection === 'reviews' ? 'active' : ''} href="#reviews">Reviews</a></li>
           <li><a className={activeSection === 'whale-watch' ? 'active' : ''} href="#whale-watch" style={{color: 'var(--green)'}}>Whale Watch</a></li>
-          <li><a href="https://dprince-ai.vercel.app" target="_blank" rel="noopener noreferrer" style={{color: 'var(--amber)', border: '1px solid rgba(245,166,35,0.4)', padding: '6px 14px', borderRadius: 'var(--radius)', display: 'inline-flex', alignItems: 'center', gap: '6px', transition: 'background 0.2s'}} onMouseOver={(e) => e.currentTarget.style.background = 'rgba(245,166,35,0.1)'} onMouseOut={(e) => e.currentTarget.style.background = 'transparent'}><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>DPRINCE AI</a></li>
+          <li><a className={activeSection === 'powr-registry' ? 'active' : ''} href="#powr-registry" style={{color: 'var(--white)', border: '1px solid var(--bdr)', padding: '6px 14px', borderRadius: 'var(--radius)'}}>POWR Registry</a></li>
+          <li><a href="https://dprinceai.vercel.app" target="_blank" rel="noopener noreferrer" style={{color: 'var(--amber)', border: '1px solid rgba(245,166,35,0.4)', padding: '6px 14px', borderRadius: 'var(--radius)', display: 'inline-flex', alignItems: 'center', gap: '6px', transition: 'background 0.2s'}} onMouseOver={(e) => e.currentTarget.style.background = 'rgba(245,166,35,0.1)'} onMouseOut={(e) => e.currentTarget.style.background = 'transparent'}><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>DPR AI</a></li>
           <li><a className={activeSection === 'contact' ? 'active nav-cta' : 'nav-cta'} href="#contact">Contact</a></li>
         </ul>
         <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
@@ -157,7 +158,8 @@ const Navbar = () => {
         <a href="#experience" onClick={closeMobile}>Experience</a>
         <a href="#reviews" onClick={closeMobile}>Reviews</a>
         <a href="#whale-watch" onClick={closeMobile} style={{color: 'var(--green)'}}>Whale Watch</a>
-        <a href="https://dprince-ai.vercel.app" target="_blank" rel="noopener noreferrer" onClick={closeMobile} style={{color: 'var(--amber)'}}>DPRINCE AI</a>
+        <a href="#powr-registry" onClick={closeMobile} style={{color: 'var(--white)'}}>POWR Registry</a>
+        <a href="https://dprinceai.vercel.app" target="_blank" rel="noopener noreferrer" onClick={closeMobile} style={{color: 'var(--amber)'}}>DPR AI</a>
         <a href="#contact" onClick={closeMobile}>Contact</a>
       </div>
     </>

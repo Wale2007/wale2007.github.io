@@ -156,7 +156,7 @@ const Skills = () => {
               <div className="skill-card-title">Development</div>
               <ul className="skill-items">
                 <li>Web Development (Frontend &amp; Backend)</li>
-                <li>Software Architecture</li>
+                <li>TypeScript &amp; JavaScript Mastery</li>
                 <li>Python, C / C++, HTML/CSS</li>
                 <li>Version Control: Git &amp; GitHub</li>
               </ul>
@@ -199,8 +199,9 @@ const Skills = () => {
               <div>
                 <div className="prof-group-title current">Current Stack</div>
                 <ProgressBar name="Technical Content Writing" percent={90} />
+                <ProgressBar name="TypeScript" percent={94} />
+                <ProgressBar name="JavaScript" percent={92} />
                 <ProgressBar name="Web3 & Blockchain Foundations" percent={85} />
-                <ProgressBar name="Software Architecture" percent={80} />
                 <ProgressBar name="Git & Version Control" percent={80} />
                 <ProgressBar name="Python" percent={75} />
                 <ProgressBar name="C / C++" percent={70} />
@@ -217,6 +218,8 @@ const Skills = () => {
           </div>
 
           <div className="pills fade-up">
+            <span className="pill pill-g">TypeScript</span>
+            <span className="pill pill-g">JavaScript</span>
             <span className="pill pill-g">HTML / CSS</span>
             <span className="pill pill-g">Python</span>
             <span className="pill pill-g">C / C++</span>

@@ -1,22 +1,22 @@
 const Projects = () => {
   return (
     <>
-      <section id="dprince-ai" style={{ background: 'var(--bg)' }}>
+      <section id="dpr-ai" style={{ background: 'var(--bg)' }}>
         <div className="inner">
           <div className="sec-label fade-up">04 // Project</div>
-          <h2 className="sec-title fade-up">DPRINCE <span className="hl">AI</span></h2>
+          <h2 className="sec-title fade-up">DPR <span className="hl">AI</span></h2>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 1fr', gap: '60px', alignItems: 'center' }} className="about-grid fade-up">
             <div>
               <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '20px' }}>
-                A fully featured AI assistant I built from scratch — powered by
-                <strong style={{ color: 'var(--white)' }}> Groq's Llama 3.3</strong> model with support
-                for intelligent chat, code generation, image creation, and voice output.
+                A fully featured AI assistant built for high-performance intelligence — powered by
+                <strong style={{ color: 'var(--white)' }}> Groq's Llama 3.3</strong> model. Rebranded as
+                <strong style={{ color: 'var(--amber)' }}> DPR AI</strong>, it serves as an advanced gateway for
+                intelligent chat, code generation, and voice output.
               </p>
               <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '32px' }}>
-                Users can sign in with Google or email, maintain persistent chat history across
-                sessions, and switch to a fully private incognito mode. Built entirely for free
-                using Groq AI, Supabase, and Pollinations.
+                Features a secure authentication gateway (Google and Email login) with persistent history
+                and a private incognito mode. Designed for speed and seamless user experience.
               </p>
 
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '36px' }}>
@@ -26,15 +26,14 @@ const Projects = () => {
                 <span className="ctag ctag-g">Image Generation</span>
                 <span className="ctag ctag-m">Voice Output</span>
                 <span className="ctag ctag-g">Chat History</span>
-                <span className="ctag ctag-a">Incognito Mode</span>
               </div>
 
-              <a href="https://dprince-ai.vercel.app"
+              <a href="https://dprinceai.vercel.app"
                 target="_blank" rel="noopener noreferrer"
                 className="btn btn-solid hover-toggle"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                Launch DPRINCE AI
+                Launch DPR AI
               </a>
             </div>
 
@@ -164,6 +163,74 @@ const Projects = () => {
                 <div>
                   <div className="int-title">Web3 Wallet Integration</div>
                   <div className="int-desc">Connect your wallet directly to buy and sell tokens, with hot token shortcuts (PEPE, SHIB, FLOKI, WIF) for quick access</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="powr-registry" style={{ background: 'var(--bg)' }}>
+        <div className="inner">
+          <div className="sec-label fade-up">06 // Project</div>
+          <h2 className="sec-title fade-up">POWR <span className="hl">Registry</span></h2>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 1fr', gap: '60px', alignItems: 'start' }} className="about-grid fade-up">
+            <div>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '20px' }}>
+                The <strong style={{ color: 'var(--white)' }}>Truth Layer of Web3</strong> — a decentralized reputation protocol 
+                designed to solve the Sybil problem (bots and fake identities). It authenticates real human builders 
+                by analyzing their contributions and on-chain behavior.
+              </p>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '20px' }}>
+                POWR.PRO analyzes GitHub commit history and development activity to assign a reputation score, 
+                cross-referencing transaction history across chains like <strong style={{ color: 'var(--white)' }}>Base</strong> and 
+                <strong style={{ color: 'var(--white)' }}>BOB</strong>. It ensures ecosystem rewards go to genuine human contributors.
+              </p>
+
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '36px' }}>
+                <span className="ctag ctag-g">React</span>
+                <span className="ctag ctag-a">Vite</span>
+                <span className="ctag ctag-g">Web3</span>
+                <span className="ctag ctag-a">GitHub API</span>
+                <span className="ctag ctag-m">On-chain Indexing</span>
+                <span className="ctag ctag-g">Sybil Protection</span>
+              </div>
+
+              <a href="https://powr-registry.vercel.app/"
+                target="_blank" rel="noopener noreferrer"
+                className="btn btn-solid hover-toggle"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Explore POWR Registry
+              </a>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Verifiable Identity</div>
+                  <div className="int-desc">Multi-dimensional framework to prove humanness and authentic developer identity</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Proof of Work Analysis</div>
+                  <div className="int-desc">Deep integration with GitHub to analyze commit signatures and repository contributions</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">L2 On-chain Reputation</div>
+                  <div className="int-desc">Builds trust scores by indexing activity across Base and BOB chains</div>
                 </div>
               </div>
             </div>
