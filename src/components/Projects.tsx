@@ -306,6 +306,74 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      <section id="prof-salawu" style={{ background: 'var(--bg)' }}>
+        <div className="inner">
+          <div className="sec-label fade-up">08 // Project</div>
+          <h2 className="sec-title fade-up">Prof. Salawu <span className="hl">Portfolio</span></h2>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 1fr', gap: '60px', alignItems: 'start' }} className="about-grid fade-up">
+            <div>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '20px' }}>
+                A high-end academic portfolio developed for <strong style={{ color: 'var(--white)' }}>Professor Sule Ola Salawu</strong>, 
+                a distinguished Professor of Applied Biochemistry at FUTA. This platform serves as a professional digital presence, 
+                showcasing his extensive research, publications, and career milestones.
+              </p>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '32px' }}>
+                The site features a clean, responsive interface with a focus on readability and accessibility. 
+                It includes dynamic research spotlights, an interactive publication gallery, and direct integration 
+                for professional inquiries and mental health advocacy.
+              </p>
+
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '36px' }}>
+                <span className="ctag ctag-g">Next.js</span>
+                <span className="ctag ctag-a">React</span>
+                <span className="ctag ctag-m">Academic Portfolio</span>
+                <span className="ctag ctag-g">TailwindCSS</span>
+                <span className="ctag ctag-a">Vercel</span>
+                <span className="ctag ctag-g">SEO Optimized</span>
+              </div>
+
+              <a href="https://sosalawu.vercel.app/"
+                target="_blank" rel="noopener noreferrer"
+                className="btn btn-solid hover-toggle"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Academic Showcase</div>
+                  <div className="int-desc">Dedicated sections for research focus, journal publications, and professional supervision</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Performance & SEO</div>
+                  <div className="int-desc">Built with Next.js for lightning-fast loading and optimized for academic search indexing</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Social Integration</div>
+                  <div className="int-desc">Direct WhatsApp and email connectivity for seamless professional networking</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
