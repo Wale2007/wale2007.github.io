@@ -237,6 +237,75 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      <section id="mides-muse" style={{ background: 'var(--bg2)' }}>
+        <div className="inner">
+          <div className="sec-label fade-up">07 // Project</div>
+          <h2 className="sec-title fade-up">Mide's <span className="hl">MUSE</span></h2>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 1fr', gap: '60px', alignItems: 'start' }} className="about-grid fade-up">
+            <div>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '20px' }}>
+                A premium e-commerce platform curated for jewelry and accessories —
+                designed with a modern, elegant rose-gold aesthetic.
+                <strong style={{ color: 'var(--white)' }}> Mide's MUSE</strong> provides a seamless student-facing
+                shopping experience with curated collections of necklaces, earrings, and bracelets.
+              </p>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '32px' }}>
+                The platform is powered by <strong style={{ color: 'var(--white)' }}>Supabase</strong> for secure
+                authentication, database management, and asset storage, featuring dynamic
+                product rendering, interactive UI elements, and integrated WhatsApp chat for instant customer support.
+              </p>
+
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '36px' }}>
+                <span className="ctag ctag-g">React</span>
+                <span className="ctag ctag-a">Vite</span>
+                <span className="ctag ctag-m">E-Commerce</span>
+                <span className="ctag ctag-g">Supabase</span>
+                <span className="ctag ctag-a">TailwindCSS</span>
+                <span className="ctag ctag-g">UI/UX Design</span>
+              </div>
+
+              <a href="https://midesmuse.vercel.app/"
+                target="_blank" rel="noopener noreferrer"
+                className="btn btn-solid hover-toggle"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Shop Mide's Muse
+              </a>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">E-Commerce Storefront</div>
+                  <div className="int-desc">Curated category pages, dynamic product listings, and a modern shopping interface</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Integrated Support</div>
+                  <div className="int-desc">Direct WhatsApp integration for immediate customer assistance and order processing</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">User Authentication</div>
+                  <div className="int-desc">Secure customer profiles, login, and registration backed by Supabase</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
