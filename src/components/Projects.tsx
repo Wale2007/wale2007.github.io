@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <>
+    <div id="projects">
       <section id="dpr-ai" style={{ background: 'var(--bg)' }}>
         <div className="inner">
           <div className="sec-label fade-up">04 // Project</div>
@@ -374,7 +374,7 @@ const Projects = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
