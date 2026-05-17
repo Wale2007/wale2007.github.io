@@ -374,6 +374,146 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      <section id="churchill-concept" style={{ background: 'var(--bg2)' }}>
+        <div className="inner">
+          <div className="sec-label fade-up">09 // Project</div>
+          <h2 className="sec-title fade-up">Churchill <span className="hl">Concept</span></h2>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 1fr', gap: '60px', alignItems: 'start' }} className="about-grid fade-up">
+            <div>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '20px' }}>
+                A premium photography portfolio and booking platform built for
+                <strong style={{ color: 'var(--white)' }}> Churchill Concept Photography</strong>. Designed with a luxurious,
+                editorial aesthetic that mirrors the brand's high-end visual storytelling approach across
+                lifestyle, wedding, and corporate photography.
+              </p>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '32px' }}>
+                The platform features a curated gallery showcase, dedicated service packages for
+                <strong style={{ color: 'var(--white)' }}> Weddings, Lifestyle, Corporate, Birthdays, Studio Sessions</strong>, and
+                <strong style={{ color: 'var(--white)' }}> Events & Concerts</strong> — with integrated WhatsApp booking and
+                social media connectivity across Instagram and TikTok.
+              </p>
+
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '36px' }}>
+                <span className="ctag ctag-g">React</span>
+                <span className="ctag ctag-a">Vite</span>
+                <span className="ctag ctag-m">Photography Portfolio</span>
+                <span className="ctag ctag-g">Responsive Design</span>
+                <span className="ctag ctag-a">WhatsApp Booking</span>
+                <span className="ctag ctag-g">SEO Optimized</span>
+              </div>
+
+              <a href="https://churchillconcept.vercel.app/"
+                target="_blank" rel="noopener noreferrer"
+                className="btn btn-solid hover-toggle"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                View Churchill Concept
+              </a>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Curated Gallery</div>
+                  <div className="int-desc">Premium visual showcase featuring lifestyle, editorial, and studio photography collections</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Service Packages</div>
+                  <div className="int-desc">Six tailored photography packages — Weddings, Lifestyle, Corporate, Birthdays, Studio, and Events</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Instant Booking</div>
+                  <div className="int-desc">Direct WhatsApp integration for seamless shoot booking and custom package requests</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="the-wonder-place" style={{ background: 'var(--bg)' }}>
+        <div className="inner">
+          <div className="sec-label fade-up">10 // Project</div>
+          <h2 className="sec-title fade-up">The Wonder <span className="hl">Place</span></h2>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 1fr', gap: '60px', alignItems: 'start' }} className="about-grid fade-up">
+            <div>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '20px' }}>
+                An elegant restaurant and food experience platform —
+                <strong style={{ color: 'var(--amber)' }}> "Taste the Wonder"</strong>. Built with a refined,
+                typography-driven aesthetic using premium serif fonts (Cormorant Garamond & Playfair Display)
+                to evoke a luxurious dining atmosphere.
+              </p>
+              <p style={{ fontSize: '0.95rem', color: 'var(--muted)', lineHeight: '1.9', marginBottom: '32px' }}>
+                The platform features a visually rich hero slider, interactive menu displays, and a
+                smooth single-page experience designed to entice and engage food enthusiasts. Powered by
+                <strong style={{ color: 'var(--white)' }}> React</strong> with modern build tooling for fast,
+                responsive performance across all devices.
+              </p>
+
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '36px' }}>
+                <span className="ctag ctag-g">React</span>
+                <span className="ctag ctag-a">Vite</span>
+                <span className="ctag ctag-m">Restaurant</span>
+                <span className="ctag ctag-g">Typography Design</span>
+                <span className="ctag ctag-a">Hero Slider</span>
+                <span className="ctag ctag-g">Responsive UI</span>
+              </div>
+
+              <a href="https://thewonderplace.vercel.app/"
+                target="_blank" rel="noopener noreferrer"
+                className="btn btn-solid hover-toggle"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit The Wonder Place
+              </a>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Immersive Dining Experience</div>
+                  <div className="int-desc">Premium hero slider and rich visuals that transport visitors into the restaurant's luxurious atmosphere</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Interactive Menu</div>
+                  <div className="int-desc">Beautifully typeset menu sections with elegant serif typography for a refined browsing experience</div>
+                </div>
+              </div>
+              <div className="int-item hover-toggle" style={{ cursor: 'default' }}>
+                <div className="int-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" strokeWidth="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                </div>
+                <div>
+                  <div className="int-title">Responsive & Performant</div>
+                  <div className="int-desc">Optimized for all screen sizes with modern React architecture and fast Vite build tooling</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
