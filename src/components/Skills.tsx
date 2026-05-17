@@ -155,9 +155,9 @@ const Skills = () => {
               </div>
               <div className="skill-card-title">Development</div>
               <ul className="skill-items">
-                <li>Web Development (Frontend &amp; Backend)</li>
+                <li>Web Development (React, Next.js, Supabase)</li>
                 <li>TypeScript &amp; JavaScript Mastery</li>
-                <li>Python, C / C++, HTML/CSS</li>
+                <li>Python, C / C++, HTML/CSS, TailwindCSS</li>
                 <li>Version Control: Git &amp; GitHub</li>
               </ul>
             </div>
@@ -198,40 +198,40 @@ const Skills = () => {
             <div className="prof-grid">
               <div>
                 <div className="prof-group-title current">Current Stack</div>
-                <ProgressBar name="Technical Content Writing" percent={90} />
-                <ProgressBar name="TypeScript" percent={94} />
-                <ProgressBar name="JavaScript" percent={92} />
-                <ProgressBar name="Web3 & Blockchain Foundations" percent={85} />
+                <ProgressBar name="TypeScript / JavaScript" percent={94} />
+                <ProgressBar name="React & Next.js" percent={90} />
+                <ProgressBar name="Tailwind CSS" percent={88} />
+                <ProgressBar name="HTML / CSS" percent={85} />
                 <ProgressBar name="Git & Version Control" percent={80} />
-                <ProgressBar name="Python" percent={75} />
-                <ProgressBar name="C / C++" percent={70} />
-                <ProgressBar name="HTML / CSS" percent={65} />
-                <ProgressBar name="Perl" percent={40} />
+                <ProgressBar name="Supabase / Backend" percent={75} />
               </div>
               <div>
-                <div className="prof-group-title learning">Active Mastery</div>
+                <div className="prof-group-title learning">Additional & Active Mastery</div>
+                <ProgressBar name="Technical Content Writing" percent={90} />
+                <ProgressBar name="Web3 & Blockchain" percent={85} />
+                <ProgressBar name="Python" percent={75} />
+                <ProgressBar name="C / C++" percent={70} />
                 <ProgressBar name="Solidity" percent={45} isLearning sub="Deepening knowledge for Smart Contract Auditing" />
                 <ProgressBar name="Ethers.js / Web3.js" percent={40} isLearning sub="Integrating blockchain logic into web applications" />
-                <ProgressBar name="Security Auditing Tools" percent={35} isLearning sub="Learning Slither and Mythril for vulnerability detection" />
               </div>
             </div>
           </div>
 
           <div className="pills fade-up">
+            <span className="pill pill-g">React</span>
+            <span className="pill pill-g">Next.js</span>
             <span className="pill pill-g">TypeScript</span>
             <span className="pill pill-g">JavaScript</span>
-            <span className="pill pill-g">HTML / CSS</span>
+            <span className="pill pill-g">Tailwind CSS</span>
+            <span className="pill pill-g">Supabase</span>
             <span className="pill pill-g">Python</span>
             <span className="pill pill-g">C / C++</span>
-            <span className="pill pill-g">Git</span>
-            <span className="pill pill-g">GitHub</span>
+            <span className="pill pill-g">Git / GitHub</span>
             <span className="pill pill-a hover-toggle hover-toggle-amber">Web3 Security</span>
             <span className="pill pill-a hover-toggle hover-toggle-amber">Solidity</span>
             <span className="pill pill-a hover-toggle hover-toggle-amber">Smart Contracts</span>
             <span className="pill pill-a hover-toggle hover-toggle-amber">DeFi</span>
-            <span className="pill pill-a hover-toggle hover-toggle-amber">Arbitrum</span>
-            <span className="pill pill-a hover-toggle hover-toggle-amber">Base</span>
-            <span className="pill pill-a hover-toggle hover-toggle-amber">Akash Network</span>
+            <span className="pill pill-a hover-toggle hover-toggle-amber">Base & L2s</span>
             <span className="pill pill-g">Technical Writing</span>
             <span className="pill pill-g">Community Building</span>
           </div>
