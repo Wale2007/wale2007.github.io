@@ -119,7 +119,7 @@ const Projects = () => {
                 <span className="ctag ctag-a">On-Chain Data</span>
               </div>
 
-              <a href="https://whale-watch-iota.vercel.app/"
+              <a href="https://whalewatch1.vercel.app/"
                 target="_blank" rel="noopener noreferrer"
                 className="btn btn-solid hover-toggle"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
