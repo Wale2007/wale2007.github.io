@@ -191,7 +191,7 @@ const Hero = () => {
           </h1>
           <p className="hero-handle">// <span>known as Mr. Wale</span></p>
           <p className="hero-bio">
-            <strong>Software Engineer</strong> with a specialized focus in
+            <strong>A Software Engineer</strong> with a specialized focus in
             <strong> Web3 Security</strong> and blockchain ecosystems, building at the frontier
             of decentralized technology, writing, coding, and exploring the chain.
           </p>
