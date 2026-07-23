@@ -191,7 +191,7 @@ const Hero = () => {
           </h1>
           <p className="hero-handle">// <span>known as Mr. Wale</span></p>
           <p className="hero-bio">
-            <strong>Software Engineering Student</strong> at FUTA with a specialized focus in
+            <strong>Software Engineer</strong> with a specialized focus in
             <strong> Web3 Security</strong> and blockchain ecosystems, building at the frontier
             of decentralized technology, writing, coding, and exploring the chain.
           </p>
@@ -206,7 +206,6 @@ const Hero = () => {
           <div className="hero-metrics">
             <div><span className="metric-val">4+</span><span className="metric-key">Ecosystems</span></div>
             <div><span className="metric-val">Web3</span><span className="metric-key">Security Focus</span></div>
-            <div><span className="metric-val">FUTA</span><span className="metric-key">B.Tech SWE</span></div>
           </div>
         </div>
 
@@ -214,7 +213,6 @@ const Hero = () => {
           <div className="id-card hover-toggle">
             <div className="card-bar">
               <span className="card-bar-label">Identity // Real World</span>
-              <span className="card-chip">FUTA &middot; Nigeria</span>
             </div>
             <div className="card-img" id="desktopSlide">
               {images.map((img, idx) => (
