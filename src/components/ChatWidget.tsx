@@ -7,7 +7,7 @@ const WALE_CONTEXT = `You are DPRINCE AI, an intelligent assistant embedded on O
 
 Key facts about Mr. Wale:
 - Full name: Ola-salawu Olawale Oluwasegun, known as Mr. Wale
-- Software Engineering student at Federal University of Technology, Akure (FUTA), Nigeria
+- Software Engineer
 - Specializes in Web3 Security and blockchain technology
 - Brand Ambassador for: Build on BOB (Bitcoin L2), Pett.ai (Base gaming), Arbitrum, Akash Network
 - Skills: Web3 Security, Smart Contract Analysis, DeFi Research, Python, C/C++, HTML/CSS, Git, Technical Writing
