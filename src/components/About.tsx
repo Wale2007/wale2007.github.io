@@ -142,8 +142,7 @@ const About = () => {
               </div>
 
               <p>
-                I am <strong>Ola-salawu Olawale Oluwasegun</strong>, a Software Engineering
-                student at the Federal University of Technology, Akure, working at the intersection
+                I am <strong>Ola-salawu Olawale Oluwasegun</strong>, a Software Engineer working at the intersection
                 of traditional software development and the decentralized future of the web.
               </p>
               <p>
@@ -165,9 +164,9 @@ const About = () => {
               </div>
 
               <div className="terminal hover-toggle">
-                <span className="t-prompt">wale@futa:~$</span> <span className="t-cmd">whoami</span><br/>
-                &rarr;&nbsp;SWE Student &nbsp;|&nbsp; Web3 Security &nbsp;|&nbsp; Ambassador &nbsp;|&nbsp; Writer<br/>
-                <span className="t-prompt">wale@futa:~$</span> <span className="t-cmd">echo $LOCATION</span><br/>
+                <span className="t-prompt">wale:~$</span> <span className="t-cmd">whoami</span><br/>
+                &rarr;&nbsp; Web3 Security &nbsp;|&nbsp; Ambassador &nbsp;|&nbsp; Writer<br/>
+                <span className="t-prompt">wale:~$</span> <span className="t-cmd">echo $LOCATION</span><br/>
                 &rarr;&nbsp;Nigeria, Building on-chain<span className="t-cursor"></span>
               </div>
             </div>
