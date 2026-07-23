@@ -157,12 +157,6 @@ const About = () => {
                 as a brand ambassador and community builder. The best builders are also the best storytellers.
               </p>
               
-              <div className="terminal hover-toggle">
-                <span className="t-prompt">wale:~$</span> <span className="t-cmd">whoami</span><br/>
-                &rarr;&nbsp; Web3 Security &nbsp;|&nbsp; Ambassador &nbsp;|&nbsp; Writer<br/>
-                <span className="t-prompt">wale:~$</span> <span className="t-cmd">echo $LOCATION</span><br/>
-                &rarr;&nbsp;Nigeria, Building on-chain<span className="t-cursor"></span>
-              </div>
             </div>
 
             <div className="interests fade-up">
