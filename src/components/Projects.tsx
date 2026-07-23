@@ -3,7 +3,7 @@ const Projects = () => {
     <div id="projects">
       <section id="dpr-ai" style={{ background: 'var(--bg)' }}>
         <div className="inner">
-          <div className="sec-label fade-up">04 // Project</div>
+          <div className="sec-label fade-up">03 // Project</div>
           <h2 className="sec-title fade-up">DPR <span className="hl">AI</span></h2>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 1fr', gap: '60px', alignItems: 'center' }} className="about-grid fade-up">

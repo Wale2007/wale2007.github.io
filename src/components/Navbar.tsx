@@ -135,8 +135,8 @@ const Navbar = () => {
         <ul className="nav-links">
           <li><a className={activeSection === 'about' ? 'active' : ''} href="#about">About</a></li>
           <li><a className={activeSection === 'skills' ? 'active' : ''} href="#skills">Skills</a></li>
-          <li><a className={activeSection === 'reviews' ? 'active' : ''} href="#reviews">Reviews</a></li>
           <li><a className={activeSection === 'projects' ? 'active' : ''} href="#projects">Projects</a></li>
+          <li><a className={activeSection === 'reviews' ? 'active' : ''} href="#reviews">Reviews</a></li>
           <li><a className={activeSection === 'contact' ? 'active nav-cta' : 'nav-cta'} href="#contact">Contact</a></li>
         </ul>
         <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
