@@ -215,25 +215,6 @@ const Skills = () => {
               </div>
             </div>
           </div>
-
-          <div className="pills fade-up">
-            <span className="pill pill-g">React</span>
-            <span className="pill pill-g">Next.js</span>
-            <span className="pill pill-g">TypeScript</span>
-            <span className="pill pill-g">JavaScript</span>
-            <span className="pill pill-g">Tailwind CSS</span>
-            <span className="pill pill-g">Supabase</span>
-            <span className="pill pill-g">Python</span>
-            <span className="pill pill-g">C / C++</span>
-            <span className="pill pill-g">Git / GitHub</span>
-            <span className="pill pill-a hover-toggle hover-toggle-amber">Web3 Security</span>
-            <span className="pill pill-a hover-toggle hover-toggle-amber">Solidity</span>
-            <span className="pill pill-a hover-toggle hover-toggle-amber">Smart Contracts</span>
-            <span className="pill pill-a hover-toggle hover-toggle-amber">DeFi</span>
-            <span className="pill pill-a hover-toggle hover-toggle-amber">Base & L2s</span>
-            <span className="pill pill-g">Technical Writing</span>
-            <span className="pill pill-g">Community Building</span>
-          </div>
         </div>
       </section>
     </>
