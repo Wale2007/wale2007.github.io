@@ -200,10 +200,9 @@ const Skills = () => {
                 <div className="prof-group-title current">Current Stack</div>
                 <ProgressBar name="TypeScript / JavaScript" percent={94} />
                 <ProgressBar name="React & Next.js" percent={90} />
+                <ProgressBar name="JAVA" percent={78} />
                 <ProgressBar name="Tailwind CSS" percent={88} />
                 <ProgressBar name="HTML / CSS" percent={85} />
-                <ProgressBar name="Git & Version Control" percent={80} />
-                <ProgressBar name="Supabase / Backend" percent={75} />
               </div>
               <div>
                 <div className="prof-group-title learning">Additional & Active Mastery</div>
