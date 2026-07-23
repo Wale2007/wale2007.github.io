@@ -203,12 +203,12 @@ const Skills = () => {
                 <ProgressBar name="JAVA" percent={78} />
                 <ProgressBar name="Tailwind CSS" percent={88} />
                 <ProgressBar name="HTML / CSS" percent={85} />
+                <ProgressBar name="Python" percent={75} />
               </div>
               <div>
                 <div className="prof-group-title learning">Additional & Active Mastery</div>
                 <ProgressBar name="Technical Content Writing" percent={90} />
                 <ProgressBar name="Web3 & Blockchain" percent={85} />
-                <ProgressBar name="Python" percent={75} />
                 <ProgressBar name="C / C++" percent={70} />
                 <ProgressBar name="Solidity" percent={45} isLearning sub="Deepening knowledge for Smart Contract Auditing" />
                 <ProgressBar name="Ethers.js / Web3.js" percent={40} isLearning sub="Integrating blockchain logic into web applications" />
