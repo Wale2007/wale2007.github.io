@@ -156,13 +156,7 @@ const About = () => {
                 <strong> Pett.ai</strong>, <strong>Arbitrum</strong> to <strong>Akash</strong>,
                 as a brand ambassador and community builder. The best builders are also the best storytellers.
               </p>
-
-              <div className="edu-block hover-toggle">
-                <div className="edu-tag">Education</div>
-                <div className="edu-inst">Federal University of Technology, Akure</div>
-                <div className="edu-deg">B.Tech in Software Engineering, Ondo, Nigeria</div>
-              </div>
-
+              
               <div className="terminal hover-toggle">
                 <span className="t-prompt">wale:~$</span> <span className="t-cmd">whoami</span><br/>
                 &rarr;&nbsp; Web3 Security &nbsp;|&nbsp; Ambassador &nbsp;|&nbsp; Writer<br/>
